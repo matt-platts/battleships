@@ -3,8 +3,7 @@ A very simple battleships game, that I wrote as part of a job interview once, in
 Usage:
 
 Fire up index.html in a web browser to play
-For the backdoor cheat, go to battleships.php?action=show in a browser and do view_source to format it correctly
-Or on the main page in the browser, simply add ?show = 1 to the url
+For the required backdoor cheat, go to battleships.php?action=show or on the main page in the browser, simply add ?show = 1 to the url and it will display the solution after the first shot.
 
 Notes:
 

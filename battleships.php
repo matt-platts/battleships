@@ -82,7 +82,7 @@ if ($_GET['action']){
 	} else if ($_GET['action']=="show"){
 
 		$game->load_grid($_SESSION['grid']);
-		print $game->export_grid_visual();
+		print "<pre>" . $game->export_grid_visual() . "</pre>";
 		exit;
 
 	} else {
